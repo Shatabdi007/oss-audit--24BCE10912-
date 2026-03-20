@@ -1,0 +1,9 @@
+@echo off
+set file=%1
+set keyword=%2
+
+find /i "%keyword%" %file% > temp.txt
+for /f %%A in ('find /c /v "" ^< temp.txt') do set count=%%A
+
+echo Keyword '%keyword%' found %count% times
+del temp.txt
