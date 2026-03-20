@@ -1,0 +1,8 @@
+@echo off
+set /p name=Enter your name:
+set /p goal=Enter your goal:
+
+echo Name: %name% > manifesto.txt
+echo Goal: %goal% >> manifesto.txt
+
+echo Saved to manifesto.txt
