@@ -1,0 +1,9 @@
+@echo off
+echo ===== SYSTEM REPORT =====
+echo Username: %USERNAME%
+echo Computer Name: %COMPUTERNAME%
+systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
+echo Uptime:
+net stats workstation | find "Statistics since"
+echo Date: %DATE%
+echo Time: %TIME%
