@@ -2,8 +2,8 @@
 
 ## Student Details
 
-Name: SAMRIDHI TYAGI 
-Roll Number: 224MIM10091
+Name: SHATABDI SINGH
+Roll Number: 24BCE10912
 Course: Open Source Software
 
 
