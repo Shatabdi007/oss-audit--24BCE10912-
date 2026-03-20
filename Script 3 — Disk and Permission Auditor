@@ -1,0 +1,5 @@
+@echo off
+echo ===== DISK REPORT =====
+dir C:\Windows
+echo.
+dir C:\Users
