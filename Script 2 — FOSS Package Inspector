@@ -1,0 +1,9 @@
+@echo off
+where %1 >nul 2>nul
+if %errorlevel%==0 (
+    echo %1 is installed
+    echo Description:
+    echo Command available in system PATH
+) else (
+    echo %1 is NOT installed
+)
